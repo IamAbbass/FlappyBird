@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <audio volume="0.1" id="bg_music" controls loop style="display:none">
+    <source src="audio/bg.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="splash_screen">
+    <div id="splash_content">
+      <img src="img/splash.gif">
+      <p class="top_score"></p>
+      <button id="start_game">Start Game</button>
+
+    </div>
+    <p class="zed_developers">Made with <span>♥</span> by Zed Developers</p>
+  </div>
+
+  <div class="lives">
+    <img src="img/life.png" alt="" class="life life_3" />
+    <img src="img/life.png" alt="" class="life life_2" />
+    <img src="img/life.png" alt="" class="life life_1" />
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
